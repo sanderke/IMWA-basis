@@ -9,7 +9,7 @@ var respecConfig = {
     alt: "Aquo",
     width: 252,
     height: 130,
-    id: 'IMWA-KW'}]  ,
+    id: 'IMWA-Kern'}]  ,
   editors: [],
   authors: [
     {
@@ -18,9 +18,9 @@ var respecConfig = {
 	  note: "033 203 50 97",
       companyURL: "http://www.ihw.nl",
     }],
-  shortName: "IMWA-KW",
-  pubDomain: "IMWA-Kunstwerken",
-  github: "https://github.com/Aquo-standaard/IMWA-KW",
+  shortName: "IMWA-Kern",
+  pubDomain: "IMWA-Kern",
+  github: "https://github.com/Aquo-standaard/IMWA-Kern",
   previousPublishDate: "2023-04-26",
   previousStatus: "AQ-WV",
   localBiblio: {},
