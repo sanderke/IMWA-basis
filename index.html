@@ -4,48 +4,39 @@
 <head>
   <meta content="text/html; charset=utf-8" http-equiv="content-type">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-   <link rel="stylesheet" type="text/css" href="https://data.aquo.nl/informatiemodel/publicatie/localstyle.css" />
-   <title>IMWA Basis</title>
-   <script src="https://data.aquo.nl/informatiemodel/publicatie/respec.js" class="remove"></script>
-   <script class="remove" src="config.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/digitalbazaar/respec-mermaid@1.0.1/dist/main.js" class="remove"></script>
+  <!--<script src="https://tools.geostandaarden.nl/respec/config/geonovum-config.js" class="remove"></script>
+  <script src="js/config.js" class="remove"></script>
+  <script class="remove">-->
+    respecConfig.localBiblio = Object.assign(organisationConfig.localBiblio,respecConfig.localBiblio);
+    respecConfig = {...organisationConfig, ...respecConfig};
+  </script>
+  <script>document.title = respecConfig.title</script>
+  <title>Informatiemodel Water Basis</title>
+  <!--<link rel="shortcut icon" type="image/x-icon" href="https://tools.geostandaarden.nl/respec/style/logos/Geonovum.ico" />-->
+  <script src="https://gitdocumentatie.logius.nl/publicatie/respec/builds/respec-nlgov.js" class="remove" async></script>
+  <!-- De volgende regel zorgt ervoor dat plaatjes uit Imvertor niet geschaald
+       worden, zodat de imagemap die op deze plaatjes zit werkt. -->
+  <style>div.imageinfo img {max-width: none;}</style>
 </head>
 
 <body>
-  <!--samenvatting-->
-  <section id="abstract" data-include-format="markdown" data-include='./samenvatting.md'></section>
+  <section id="abstract" data-include-format="markdown" data-include="samenvatting.md"></section>
+  <section id="sotd"></section><!-- Wordt automatisch gevuld -->
 
-  <!--STATUS DOCUMENT-->
-	<section id='sotd'>Werkdocument</section>
+  <!-- TODO: voeg hier je eigen hoofdstukken toe -->
+  <section data-include-format="markdown" data-include="imwa_cat_inleiding_IMWA-basis.md" class="informative"></section>
+  <!--<section data-include-format="markdown" data-include="ch02.md"></section>-->
+  <!--<section data-include-format="markdown" data-include="mermaid.md"></section>-->
 
-  <!-- Hoofdstuk 1 INLEIDING -->
-  <section id='inleiding'>
-    <h1>Inleiding</h1>
-    <section data-include='./algemeen/imwa_cat_inleiding.html'></section>
-    <section id="leeswijzer">
-    <h3>Leeswijzer</h3>
-      <p><a href ="#inleiding">Hoofdstuk 1</a> geeft een inleiding in de catalogus.</p>
-	    <p><a href ="#intro-gegevensdefinitie">Hoofdstuk 2</a> behandelt enkele algemene kenmerken en begrippen van het informatiemodel.</p>
-	    <p><a href ="#introductie-IMWA-Basis">Hoofdstuk 3</a> vertelt hoe het informatiemodel is opgebouwd. Het legt de relatie uit met andere Informatiemodellen Water. En er zijn enkele modelleerkeuzes beschreven </p>
-	    <p><a href ="#gegevensdefinitie">Hoofdstuk 4</a> geeft de inhoud weer van het informatiemodel: de entiteiten, de relaties tussen de entiteiten en de attributen.</p>
-	    <p><a href ="#uitbreidbare-waardelijsten">Hoofdstuk 5</a> bevat een lijst met uitbreidbare waardelijsten (domeintabellen) waarnaar in hoofdstuk 4 wordt verwezen.</p>
-	  </section>
-  </section>
- 
-  <!-- Hoofdstuk 2 ALGEMENE KENMERKEN EN BEGRIPPEN-->
-  <section id='intro-gegevensdefinitie'>
-    <h1>Introductie gegevensdefinitie en modelelementen</h1>
-      <section data-include='./algemeen/imwa_cat_uitleg_im.html'></section>
-  </section>
-  
-<!-- Hoofdstuk 3 BESCHRIJVING domeinmodel = toelichting-->
-<section id="introductie-IMWA-basis">
-	<h1>Introductie IMWA Basis</h1>
-	<section id='Intro-IMWA-basis' data-include='./algemeen/imwa_cat_inleiding_IMWA-basis.html'></section>
-</section>
+  <!-- Als je document een door imvertor gegenereerde catalogus bevat kan je die -->
+  <!-- opnemen door de volgende regel uit commentaarhaakjes te halen en aan te passen -->
+  <div id="catalogus" data-include="data/data/IMWA-basis-cat.respec.full.html" data-include-replace=true></div> -->
 
-  <!-- MODEL -->
-  <!-- hoofdstuk 4 -->
-  <div data-include="./data/IMWA-basis-cat.respec.full.html" data-include-replace=true></div>
+  <!-- De volgende paragrafen worden automatisch gevuld. Je kunt ze uitzetten -->
+  <section id='conformance'></section> <!-- Gegeneerd hoofdstuk over conformiteit-->
+  <section id='tof'></section><!-- Lijst van figuren -->
+  <section id="index"></section><!-- Lijst van begrippen -->
 </body>
 
 </html>
