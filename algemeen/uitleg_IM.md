@@ -61,7 +61,7 @@ De meest voorkomende relatie in IMWA is de *generalisatie*. Soms komt ook een *a
 Bij elk object staan de bijbehorende attributen. Achter elk attribuut staat het *datatype* of de naam van het *domein* waartoe het attribuut behoort.  
 De *kardinaliteit* wordt aangegeven als het attribuut niet verplicht is of vaker dan één keer voorkomt.
 
-#### Datatypen
+**Datatypen**
 
 Een datatype bepaalt wat voor soort waarde een attribuut kan hebben.  
 
@@ -75,17 +75,14 @@ Enkele eenvoudige datatypes zijn:
 
 Deze typen worden de *primitieve datatypen* genoemd in MIM. Sommige datatypen zijn complexer en bestaan uit meerdere delen.
 
-- **Measure**  
+- *Measure*
   Het datatype *Measure* bestaat uit twee delen: een getal en een eenheid. Bijvoorbeeld: een lengte van *10 meter*. In de huidige versie van het informatiemodel zijn de exacte opbouw en het bereik van de waarden nog niet gespecificeerd.
 
-- **Geometrie**  
+- *Geometrie*
   Geometrie-attributen beschrijven de vorm en locatie van objecten. IMWA gebruikt de geometrie-typen uit de OpenGIS Specificatie. De meest voorkomende is *GM_Object*, wat verschillende vormen kan aannemen, zoals een *punt*, *lijn* of *vlak*.
 
-#### Domeinen
+**Domeinen**
 
 Een *domein* is een verzameling waarden die een attribuut kan aannemen. Soms kan een domein worden uitgebreid met nieuwe waarden.  
 
 Bij een uitbreidbare waardelijst wordt de naam van de lijst vermeld. De volledige inhoud van de lijst staat in een apart hoofdstuk van de gegevensdefinitie.
-
-
-[def]: ./algemeen/BedrijfsobjectenModel.jpg
