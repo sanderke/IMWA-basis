@@ -2,72 +2,87 @@
 
 ## Gegevensdefinitie
 
-De gegevensdefinitie vormt het hart van de catalogus en geeft een beschrijving van alle gegevens van een informatiemodel.  
-Eerst wordt de definitie van een domein gegeven inclusief de plaatjes van het zgn. *domeinmodel*, en vervolgens de definities van de *entiteiten* waaruit het domein is opgebouwd met de eigenschappen van die entiteiten - de *attributen* - en de relaties met andere entiteiten.  
-De volgende aspecten van de gegevens worden vastgelegd:
+De gegevensdefinitie is het belangrijkste deel van de catalogus. Hierin staat een beschrijving van alle gegevens in een informatiemodel.  
+
+Eerst wordt het *domein* gedefinieerd, vaak met een afbeelding van het *domeinmodel*. Daarna worden de *entiteiten* beschreven. Dit zijn de onderdelen van het domein. Van elke entiteit worden de kenmerken (*attributen*) en de relaties met andere entiteiten vastgelegd.  
+
+De volgende informatie over de gegevens wordt opgeslagen:
 
 - De Nederlandse naam van het gegeven.
-- Of het gegeven van het type entiteit of het type attribuut is, met in het laatste geval van welke entiteit het een attribuut is.
-- Eventueel de herkomst van het gegeven.
-- De definitie van het gegeven.
-- Eventueel de herkomst van de definitie.
-- De kardinaliteit van een attribuut. De kardinaliteit geeft aan hoe vaak het attribuut voor kan of moet komen.
-- De naam van het domein voor de waarden van het attribuut, met afhankelijk van het type domein nadere informatie over de waarden.
+- Of het een *entiteit* of een *attribuut* is. Als het een attribuut is, wordt ook aangegeven bij welke entiteit het hoort.
+- Waar het gegeven vandaan komt (herkomst), indien van toepassing.
+- De betekenis (definitie) van het gegeven.
+- Waar de definitie vandaan komt (herkomst), indien van toepassing.
+- Hoe vaak het attribuut voorkomt (*kardinaliteit*). Dit geeft aan of het attribuut verplicht is en hoeveel keer het mag voorkomen.
+- De naam van het domein waarin de waarden van het attribuut zich bevinden. Soms wordt extra informatie gegeven over de mogelijke waarden.
 
 ## Modelelementen
 
-De modelelementen van een informatiemodel zijn de bouwstenen die samen de structuur en de functionaliteit van het model definiëren. Elk element speelt een specifieke rol in het beschrijven van hoe data wordt georganiseerd en beheerd binnen een systeem. Het model kent een aantal vaste elementen die bij ieder informatiemodel terugkomen. Een begrip van deze elementen vergroot de leesbaarheid van het informatiemodel en de catalogus.  
+Modelelementen zijn de bouwstenen van een informatiemodel. Ze bepalen de structuur en werking van het model. Elk element heeft een specifieke functie in de organisatie en het beheer van data.  
+
+Elk informatiemodel heeft een aantal vaste elementen. Door deze elementen goed te begrijpen, wordt het model en de catalogus makkelijker te lezen.
 
 ### Objecten
 
 - **Object**  
-  Voor het belangrijkste element zijn er vanuit verschillende perspectieven verschillende benamingen: object, informatieobject, objecttype (MIM), entiteit of klasse (UML). De concepten zijn in nuance verschillend, maar al deze concepten vertegenwoordigen een onderscheidend geheel van eigenschappen die gezamenlijk betekenis hebben. Een entiteit heeft altijd een naam en een definitie. In het model zijn de objecten te herkennen aan het begrip *Objecttype*.
+  Een object is een belangrijk element in het model. Afhankelijk van het perspectief kan een object verschillende namen hebben, zoals *informatieobject*, *objecttype* (MIM), *entiteit* of *klasse* (UML). Hoewel deze termen iets kunnen verschillen, betekenen ze in de basis hetzelfde: een groep van eigenschappen die samen een betekenis vormen. Elk object heeft een naam en een definitie. In het model worden objecten aangeduid als *Objecttype*.
 
 - **Attribuut**  
-  Met attributen worden de eigenschappen of kenmerken van een object vastgelegd. In het domeinmodel zijn de attributen te herkennen aan het begrip *Attribuutsoort*.
+  Een attribuut is een eigenschap of kenmerk van een object. In het model wordt dit aangeduid als een *Attribuutsoort*.
 
 - **Gegevensgroepen**  
-  Soms zijn een aantal attributen gegroepeerd in een groep, aangeduid als gegevensgroep. De attributen horen semantisch bij elkaar en worden als eenheid behandeld. Het blijven attributen van de entiteit, maar de inhoudelijke definiëring van de gegevensgroep staat elders. Gegevensgroepen kunnen bij meerdere entiteiten terugkomen.  
-  Als voorbeeld: het is een modelleerkeuze om de *afmetingen* van een fysiek object als gegevensgroep te modelleren. *Afmeting* bevat de attributen lengte, breedte en hoogte.
+  Soms worden meerdere attributen gegroepeerd in een *gegevensgroep*. De attributen in zo’n groep horen inhoudelijk bij elkaar en worden als een geheel behandeld.  
+  Gegevensgroepen kunnen bij meerdere entiteiten voorkomen. Een voorbeeld hiervan is een groep *afmetingen*, waarin de attributen *lengte*, *breedte* en *hoogte* zitten.
 
-### Relaties
+### Relaties tussen objecten
 
-Het model laat daarnaast ook zien hoe objecten aan elkaar gerelateerd zijn. Een relatie heeft altijd een richting en in de meeste gevallen loopt deze van bron naar doel. De meest voorkomende relatie in IMWA is de *generalisatie*. Daarnaast komt een enkele keer de *associatierelatie* voor.
+Objecten kunnen aan elkaar gekoppeld zijn via relaties. Een relatie heeft altijd een richting. In de meeste gevallen loopt deze van een *bron* naar een *doel*.  
+
+De meest voorkomende relatie in IMWA is de *generalisatie*. Soms komt ook een *associatierelatie* voor.
 
 ![Relaties](./algemeen/Generalisatie en Associatie.jpg)  
 *Voorbeeld van generalisatie- en associatierelatie.*
 
 - **Generalisatierelatie**  
-  Dit is een relatie waarbij een 'kind'-klasse (subklasse) is afgeleid van een 'ouder'-klasse (superklasse). Een generalisatierelatie geeft aan dat bepaalde eigenschappen van een object ook gelden voor de gerelateerde objecttypen, én dat deze qua betekenis, structuur en syntax gelijk zijn. Je kunt de relatie lezen als een 'is-een'-relatie.
+  Een generalisatierelatie geeft aan dat een object afgeleid is van een ander object. Dit betekent dat de eigenschappen van het ene object ook gelden voor het andere object. Dit wordt een *'is-een'-relatie* genoemd.  
 
 - **Overerving**  
-  Dat bepaalde eigenschappen van een object ook gelden voor het gerelateerde object wordt *overerving* genoemd. In het voorbeeld overerft *WaterstaatkundigeZonering* alle attributen van *IMWA-GeoObject*. Het onderscheid tussen de twee zit hem in de extra attributen bij *WaterstaatkundigeZonering*.
+  Overerving betekent dat een object eigenschappen erft van een ander object. In het voorbeeld erft *WaterstaatkundigeZonering* alle eigenschappen van *IMWA-GeoObject*. Het verschil is dat *WaterstaatkundigeZonering* extra eigenschappen heeft.
 
 - **Abstract object**  
-  Een abstract object (klasse) is een object dat niet direct geïnstantieerd kan worden; je vindt ze niet als zodanig terug in de echte wereld. Het dient als een sjabloon voor andere klassen. In de context van generalisatie en overerving wordt de superklasse vaak een abstracte klasse. In het domeinmodel hebben de abstracte objecten vaak een lange samengestelde naam die cursief wordt weergegeven.
+  Een abstract object is een object dat niet als zelfstandig element voorkomt in de echte wereld. Het wordt gebruikt als sjabloon voor andere objecten. In het model krijgen abstracte objecten vaak een samengestelde naam die cursief wordt weergegeven.
 
 - **Associatierelatie**  
-  Een associatierelatie beschrijft een verbinding tussen twee onafhankelijke klassen die samenwerken op een bepaalde manier. Het is een *heeft-een*-relatie. Deze relatie is meer gericht op de interactie tussen objecten dan op hun hiërarchische relatie.  
-  Bij de associatierelaties speelt *kardinaliteit* een rol. Kardinaliteit specificeert de aantalverhoudingen tussen twee entiteiten in een relatie. Kardinaliteit volgt de notatie `n..m`. Als er geen kardinaliteit wordt weergegeven, wordt verondersteld dat deze `1..1` is.
+  Een associatierelatie beschrijft een *heeft-een*-relatie tussen twee objecten. Deze relatie geeft aan dat de objecten samenwerken, maar niet per se een hiërarchische relatie hebben.  
+  In associatierelaties speelt *kardinaliteit* een rol. Kardinaliteit geeft aan hoeveel objecten met elkaar verbonden zijn. Dit wordt weergegeven in de notatie `n..m`. Als er geen kardinaliteit staat, wordt aangenomen dat deze `1..1` is.
 
 ### Domeinen en datatypen
 
-In de objecten staan de namen opgesomd van de attributen, de eigenschappen van het object, met daarachter het *datatype* of de naam van het bijbehorende *domein*. De kardinaliteit van het attribuut wordt vermeld. Bij attributen is de kardinaliteit alleen opgenomen wanneer die ongelijk is aan 1 (1 staat voor 'verplicht aanwezig').
+Bij elk object staan de bijbehorende attributen. Achter elk attribuut staat het *datatype* of de naam van het *domein* waartoe het attribuut behoort.  
+De *kardinaliteit* wordt aangegeven als het attribuut niet verplicht is of vaker dan één keer voorkomt.
 
 #### Datatypen
 
-Enkele datatypes zijn enkelvoudig:  
-`number`, `integer`, `characterstring`, `date`, `year`.  
-Dit zijn de "gedeclareerde primitieve datatypen" zoals in MIM1.1 geformuleerd. Sommige datatypes zijn complexer en meervoudig.
+Een datatype bepaalt wat voor soort waarde een attribuut kan hebben.  
+
+Enkele eenvoudige datatypes zijn:
+
+- `number` (getal)
+- `integer` (geheel getal)
+- `characterstring` (tekst)
+- `date` (datum)
+- `year` (jaar)
+
+Deze typen worden de *primitieve datatypen* genoemd in MIM. Sommige datatypen zijn complexer en bestaan uit meerdere delen.
 
 - **Measure**  
-  Het datatype *Measure* bestaat uit twee delen: een getalswaarde (rationaal getal) en een eenheid. In de huidige versie van het informatiemodel is de getalswaarde niet verder gespecificeerd met de opbouw en het bereik. Ook is de eenheid nog niet opgenomen.
+  Het datatype *Measure* bestaat uit twee delen: een getal en een eenheid. Bijvoorbeeld: een lengte van *10 meter*. In de huidige versie van het informatiemodel zijn de exacte opbouw en het bereik van de waarden nog niet gespecificeerd.
 
 - **Geometrie**  
-  Bij de attributen van het type *Geometrie* wordt gebruik gemaakt van de geometrie-typen zoals die zijn beschreven in OpenGIS Specificatie. In het conceptueel model komt *GM_Object* het vaakst voor. Een *GM_Object* kan verschillende specifieke vormen aannemen, zoals: punt, lijn, vlak of complexere vormen.
+  Geometrie-attributen beschrijven de vorm en locatie van objecten. IMWA gebruikt de geometrie-typen uit de OpenGIS Specificatie. De meest voorkomende is *GM_Object*, wat verschillende vormen kan aannemen, zoals een *punt*, *lijn* of *vlak*.
 
 #### Domeinen
 
-Een uitbreidbare waardelijst wordt gebruikt wanneer uitbreiding mogelijk moet zijn. Iedere waarde van de lijst heeft een specifieke betekenis (omschrijving). Eventueel worden andere aspecten van de waarde vastgelegd.
+Een *domein* is een verzameling waarden die een attribuut kan aannemen. Soms kan een domein worden uitgebreid met nieuwe waarden.  
 
-Bij een uitbreidbare waardelijst wordt de naam van de lijst gegeven. De inhoud van de lijst is in een apart hoofdstuk van de gegevensdefinitie opgenomen.
+Bij een uitbreidbare waardelijst wordt de naam van de lijst vermeld. De volledige inhoud van de lijst staat in een apart hoofdstuk van de gegevensdefinitie.
