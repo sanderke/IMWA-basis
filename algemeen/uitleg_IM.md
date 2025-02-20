@@ -40,7 +40,7 @@ Objecten kunnen aan elkaar gekoppeld zijn via relaties. Een relatie heeft altijd
 
 De meest voorkomende relatie in IMWA is de *generalisatie*. Soms komt ook een *associatierelatie* voor.
 
-![Relaties](./algemeen/Generalisatie en Associatie.jpg)  
+![Relaties](algemeen/Generalisatie en Associatie.jpg)  
 *Voorbeeld van generalisatie- en associatierelatie.*
 
 - **Generalisatierelatie**  
