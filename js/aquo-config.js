@@ -7,12 +7,12 @@ var organisationConfig = {
     // nl_organisationStylesURL: "https://tools.geostandaarden.nl/respec/bro/style/",
     nl_organisationPublishURL: "https://docs.geostandaarden.nl/",
     logos: [{
-        src: "https://tools.geostandaarden.nl/respec/style/logos/Geonovum.svg",
-        alt: "Geonovum",
-        id: "Geonovum",
+        src: "https://data.aquo.nl/informatiemodel/publicatie/aquo_logo.svg",
+        alt: "Aquo",
+        id: "Aquo",
         height: 67,
         width: 132,
-        url: "https://www.geonovum.nl/geo-standaarden",
+        url: "https://www.aquo.nl",
       }],
 	
 	postProcess: [window.respecMermaid.createFigures],
@@ -115,15 +115,6 @@ var organisationConfig = {
             short: "CC-BY-ND",
             url: "https://creativecommons.org/licenses/by-nd/4.0/legalcode.nl",
             image: "https://tools.geostandaarden.nl/respec/style/logos/cc-by-nd.svg",
-        },
-    },
-
-    localBiblio: {
-        "SemVer": {
-            href: "https://semver.org",
-            title: "Semantic Versioning 2.0.0",
-            authors: ["T. Preston-Werner"],
-            date: "June 2013"
         },
     },
 }
