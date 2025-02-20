@@ -40,7 +40,7 @@ Objecten kunnen aan elkaar gekoppeld zijn via relaties. Een relatie heeft altijd
 
 De meest voorkomende relatie in IMWA is de *generalisatie*. Soms komt ook een *associatierelatie* voor.
 
-![Relaties] (./algemeen/generalisatie_en_associatie.jpg)  
+![Relaties](./algemeen/BedrijfsobjectenModel.jpg)
 *Voorbeeld van generalisatie- en associatierelatie.*
 
 - **Generalisatierelatie**  
@@ -86,3 +86,6 @@ Deze typen worden de *primitieve datatypen* genoemd in MIM. Sommige datatypen zi
 Een *domein* is een verzameling waarden die een attribuut kan aannemen. Soms kan een domein worden uitgebreid met nieuwe waarden.  
 
 Bij een uitbreidbare waardelijst wordt de naam van de lijst vermeld. De volledige inhoud van de lijst staat in een apart hoofdstuk van de gegevensdefinitie.
+
+
+[def]: ./algemeen/BedrijfsobjectenModel.jpg
