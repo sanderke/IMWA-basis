@@ -35,7 +35,7 @@ Binnen de Aquo hanteren we een **gelaagde opbouw** van modellen:
    Dit model wordt gebruikt voor de technische implementatie, zodat gegevens automatisch kunnen worden uitgewisseld tussen computersystemen.
 
 Het informatiemodel Water (IMWA) beschrijft alle relevante objecten, de onderlinge relaties en attributen van de Aquo-standaard. Omdat IMWA een omvangrijk model is, is het voor de overzichtelijkheid onderverdeeld in een paar onderdelen.
-![De context van IMWA](./BedrijfsobjectenModel.jpg)
+![De context van IMWA](BedrijfsobjectenModel.jpg)
 *Totaalplaat van IMWA in samenhang*
 
 - **Basis** (grijs) 
