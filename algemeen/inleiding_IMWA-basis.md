@@ -1,4 +1,4 @@
-# 1. Inleiding
+# Inleiding
 De **Aquo-standaard** (Aquo) is de Nederlandse standaard voor het uitwisselen van gegevens binnen de **watersector**. Informatie speelt een belangrijke rol in het functioneren van waterbeheer. Overheidsinstanties zoals Rijkswaterstaat, waterschappen en provincies werken steeds meer samen en wisselen informatie uit.  
 
 Om verwarring te voorkomen, is het belangrijk dat iedereen **dezelfde betekenis** geeft aan gegevens en termen. Daarnaast zijn **duidelijke afspraken** nodig over hoe gegevens worden beschreven en uitgewisseld.  
@@ -9,7 +9,7 @@ Aquo is voor **overheidsorganisaties** een **verplichte open standaard**. Deze s
 
 De Aquo bestaat uit drie samenhangende onderdelen: een woordenboek (of thesaurus), informatiemodel en domeintabellen. 
 
-## 1.1 Informatiemodellen
+## Informatiemodellen
 
 Een **informatiemodel** legt vast welke relaties er bestaan tussen gegevens die te maken hebben met **waterbeheer**. Dit helpt om data een **eenduidige betekenis** te geven. Een catalogus, zoals deze, bevat gebundelde informatie over een informatiemodel.
 
@@ -46,11 +46,11 @@ Het informatiemodel Water (IMWA) beschrijft alle relevante objecten, de onderlin
 - **Monitoring** (paars) 
 - **Normen** (geel)
 
-## 1.2 IMWA Basis
+## IMWA Basis
 
 IMWA Basis bevat een aantal gedeelde en gemeenschappelijke objecten uit de andere onderdelen van de IMWA. Daarnaast wordt in **IMWA basis** de relatie gelegd met objecten uit andere, bovenliggende standaarden, m.n. de NEN3610:2022.
 
-## 1.3 MIM-conformiteit
+## MIM-conformiteit
 
 De **Aquo-informatiemodellen** zijn opgezet volgens het **MIM (Metamodel Informatie Modellering)**, een landelijke standaard voor het maken van informatiemodellen. MIM zorgt ervoor dat informatiemodellen **uniform** worden opgebouwd, zodat ze in verschillende domeinen en bestuurslagen bruikbaar zijn.
 
