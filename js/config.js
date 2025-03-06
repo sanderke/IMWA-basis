@@ -66,13 +66,6 @@ let respecConfig = {
       },
   ],
 licenses: {
-  cc0: {
-    name: "Creative Commons 0 Public Domain Dedication",
-      short: "CC0",
-      url: "https://creativecommons.org/publicdomain/zero/1.0/",
-      image:
-    "https://tools.geostandaarden.nl/respec/style/logos/CC-Licentie.svg",
-  },
   "cc-by": {
     name: "Creative Commons Attribution 4.0 International Public License",
       short: "CC-BY",
@@ -82,11 +75,8 @@ licenses: {
 }
 const respecConfig = {
   labelColor: {
-    def: "#154273",
     wv: "#32a852",
-    cv: "#2fdaed",
-    vv: "#f00a0a",
-    basis: "#8c8c8c",
+    ,
   }
 }
 var respecConfig = {
@@ -97,25 +87,14 @@ const respecConfig = {
   sotdText: {
     nl: {
       sotd: "Status van dit document",
-      def: `Dit is de definitieve versie van. Wijzigingen naar aanleiding van consultaties zijn doorgevoerd.`,
+      //def: `Dit is de definitieve versie van. Wijzigingen naar aanleiding van consultaties zijn doorgevoerd.`,
       wv: `Dit is een werkversie die op elk moment kan worden gewijzigd, verwijderd of vervangen door andere documenten. Het is geen door goedgekeurde consultatieversie.`,
-      cv: `Dit is een door goedgekeurde consultatieversie. Commentaar over dit document kan gestuurd worden naar `,
-      vv: `Dit is een definitief concept van de nieuwe versie van. Wijzigingen naar aanleiding van consultaties zijn doorgevoerd.`,
-      basis: "Dit is een document zonder officiële status.",
-    },
-    en: {
-      sotd: "Status of This Document",
-      def: `This is the definitive version of the. Edits resulting from consultations have been applied.`,
-      wv: `This is a draft that could be altered, removed or replaced by other documents. It is not a recommendation approved by.`,
-      cv: `This is a proposed recommendation approved by. Comments regarding this document may be sent to `,
-      vv: `This is the definitive concept of the. Edits resulting from consultations have been applied.`,
-      basis: "This document has no official standing.",
+      //cv: `Dit is een door goedgekeurde consultatieversie. Commentaar over dit document kan gestuurd worden naar `,
+      //vv: `Dit is een definitief concept van de nieuwe versie van. Wijzigingen naar aanleiding van consultaties zijn doorgevoerd.`,
+      //basis: "Dit is een document zonder officiële status.",
     },
   },
 }
-latestVersion: ["nl_organisationPublishURL", "pubDomain", "/", "shortName"],
-thisVersion: ["nl_organisationPublishURL", "pubDomain", "/", "specStatus", "-", "specType", "-", "shortName", "-", "publishDate"],
-prevVersion: ["nl_organisationPublishURL", "pubDomain", "/", "previousMaturity", "-", "specType", "-", "shortName", "-", "previousPublishDate"],
   // Lokale lijst voor bibliografie
   // - Kijk eerst naar de beschikbare www.specref.org .
   // - Kijk daarna in de organisatieconfig.
