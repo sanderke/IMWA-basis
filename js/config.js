@@ -4,14 +4,14 @@ let respecConfig = {
   // title is verplicht! Neem hier de titel van het document op ----------------------
   title: "Informatiemodel Water Basis",
   //-- specStatus is verplicht! (activeer 1 van de volgende) --------------------------
-  specStatus: "wv",                   // Werkversie
+  //specStatus: "wv",                   // Werkversie
   //specStatus: "cv",               // Consultatieversie
   //specStatus: "vv",               // Versie ter vaststelling
   //specStatus: "def",              // Vastgestelde versie
-  //specStatus: "basis",            // Basis Document
+  specStatus: "basis",            // Basis Document
   //-- specType is verplicht bij alle andere dan BASIS ---------------------------------
   //specType: "NO",                 // Norm
-  //specType: "ST",                 // Standaard
+  specType: "ST",                 // Standaard
  specType: "IM",                 // Informatie Model
   //specType: "PR",                 // Praktijkrichtlijn
   //specType: "HR",                     // HandReiking
@@ -30,13 +30,13 @@ let respecConfig = {
   shortName: "IMWA Basis",
   
   //edDraftURI = De URI van de draft version. Deze wordt automatisch afgeleid van de github URI; maar kan hier overschreven worden. 
-	//edDraftURI: ["https://geonovum.github.io", "/", "shortName"],
+	//edDraftURI: ["https://github.io", "/", "shortName"],
 
   //-- publishDate is verplicht -------------------------------------------------------
   //-- NB: in de werkversie uitzetten, want dan pakt Respec de pushdate ---------------
   publishDate: "2025-02-19",
   //eventueel is het mogelijk een versienummer mee te geven, maar bij Geonovum werken we gewoonlijk alleen met datum als onderdeel van de permanente URI.
-  //publishVersion: "0.0.2",
+  publishVersion: "0.8.0",
   //previousVersion: "0.0.1",
   //-- Voor dit blok geldt: alleen als er eerdere versies zijn en altijd beiden aan/uit! 
   //previousPublishDate: "2014-05-01",
