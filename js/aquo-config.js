@@ -1,4 +1,4 @@
-// Dit bestand is gepubliceerd als https://tools.geostandaarden.nl/respec/config/geonovum-config.js, voor hergebruik in Geonovum ReSpec documenten.
+// Dit bestand is gepubliceerd als aquo-config.js, voor hergebruik in ReSpec documenten.
 var organisationConfig = {
     nl_organisationName: "IHW Aquo",
     // werkt nog niet 
@@ -22,8 +22,6 @@ var organisationConfig = {
     prevVersion: ["nl_organisationPublishURL", "pubDomain", "/", "previousMaturity", "-", "specType", "-", "shortName", "-", "previousPublishDate"],
     useLogo: true,
     useLabel: true,
-
-    license: "cc-by",
     addSectionLinks: true,
 
     localizationStrings: {
@@ -97,7 +95,7 @@ var organisationConfig = {
         ld: "#80CC28"
     },
     
-    license: {
+    licenses: {
         "cc-by": {
             name: "Creative Commons Attribution 4.0 International Public License",
             short: "CC-BY",
