@@ -4,7 +4,7 @@ let respecConfig = {
   // title is verplicht! Neem hier de titel van het document op ----------------------
   title: "Informatiemodel Water (IMWA) Basis",
   //-- specStatus is verplicht! (activeer 1 van de volgende) --------------------------
-  specStatus:   "wv",               // Werkversie
+  specStatus:   "WV",               // Werkversie
   labelColor: "#ffcc00",
   // specStatus: "cv",               // Consultatieversie
   //specStatus: "vv",               // Versie ter vaststelling
