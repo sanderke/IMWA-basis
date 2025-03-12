@@ -5,6 +5,7 @@ let respecConfig = {
   title: "Informatiemodel Water (IMWA) Basis",
   //-- specStatus is verplicht! (activeer 1 van de volgende) --------------------------
   specStatus:   "wv",               // Werkversie
+  labelColor: "#ffcc00",
   // specStatus: "cv",               // Consultatieversie
   //specStatus: "vv",               // Versie ter vaststelling
   //specStatus: "def",              // Vastgestelde versie
@@ -19,13 +20,13 @@ let respecConfig = {
   //specType: "BD",                 // Beheer Documentatie
   //specType: "AL",                 // Algemeen document
   //specType: "BP",                 // Best Practice
-  labelColor: "#FF0000",
+  
   //-- pubDomain is verplicht! (komt in de URL) -------------------------------------
   pubDomain: "IMWA Basis",
   //-- license: voor de geldende gebruiksvoorwaarden. Default is cc-by.
   //licence: "cc-by-nd",            // bronvermelding, geen afgeleide werken (default)
   //licence: "cc0",                 // Public Domain Dedication
-  license: "cc-by",                 // Attribution, met bronvermelding
+  licenses: "cc-by",                 // Attribution, met bronvermelding
   //-- shortName is verplicht! (komt in de URL: kies logische afkorting)--------------
   shortName: "IMWA Basis",
   //-- publishDate is verplicht -------------------------------------------------------
@@ -52,7 +53,7 @@ let respecConfig = {
   //maxTocLevel: 4,                           // Aantal niveau's ToC, default is 0
   nl_organisationName: "IHW",
   sotdText: "Dit is een werkversie die op elk moment kan worden gewijzigd, verwijderd of vervangen door andere documenten. Het is geen stabiel document.",
-  
+
   // Create PDF and link to file in header (optional):
   // alternateFormats: [
   //     {
