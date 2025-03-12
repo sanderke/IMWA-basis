@@ -1,7 +1,8 @@
 var respecConfig = {
-  specStatus: "WV",
-  specType: "IM",
-  //subtitle: "IMWA Basis ",
+  title: "Informatiemodel Water (IMWA) Basis",
+specStatus: "CR",
+  specType: "standard",
+  //subtitle: "IMWA Basis",
    //publishDate: "2023-04-26", 
   logos: [
   {src: 'https://www.aquo.nl//logos/aquo_logo.svg',
@@ -22,6 +23,6 @@ var respecConfig = {
   pubDomain: "IMWA-Basis",
   github: "https://github.com/Aquo-standaard/IMWA-Basis",
   previousPublishDate: "2023-04-26",
-  previousStatus: "WV",
+  previousStatus: "WD",
   localBiblio: {},
 };
