@@ -95,7 +95,7 @@ var organisationConfig = {
         ld: "#80CC28"
     },
     
-    licence: {
+    licenses: {
         "cc-by": {
             name: "Creative Commons Attribution 4.0 International Public License",
             short: "CC-BY",
