@@ -5,7 +5,7 @@ var organisationConfig = {
     // nl_organisationStylesURL: "https://.../respec/gn-algemeen/style/",
     // nl_organisationStylesURL: "https://tools.geostandaarden.nl/respec/dso/style/",
     // nl_organisationStylesURL: "https://tools.geostandaarden.nl/respec/bro/style/",
-    nl_organisationPublishURL: "https://docs.geostandaarden.nl/",
+    //nl_organisationPublishURL: "https://docs.geostandaarden.nl/",
     logos: [{
         src: "https://data.aquo.nl/informatiemodel/publicatie/aquo_logo.svg",
         alt: "Aquo",
@@ -108,7 +108,7 @@ var organisationConfig = {
             name: "Creative Commons Attribution 4.0 International Public License",
             short: "CC-BY",
             url: "https://creativecommons.org/licenses/by/4.0/legalcode",
-            image: "https://tools.geostandaarden.nl/respec/style/logos/cc-by.svg",
+            image: "https://data.aquo.nl/informatiemodel/publicatie/cc-by.svg",
         },
         "cc-by-nd": {
             name: "Creative Commons Naamsvermelding-GeenAfgeleideWerken 4.0 Internationaal",
