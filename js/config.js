@@ -25,7 +25,7 @@ let respecConfig = {
   //-- license: voor de geldende gebruiksvoorwaarden. Default is cc-by.
   //licence: "cc-by-nd",            // bronvermelding, geen afgeleide werken (default)
   //licence: "cc0",                 // Public Domain Dedication
-  licences: ["cc-by"],                 // Attribution, met bronvermelding
+  licenses: ["cc-by"],                 // Attribution, met bronvermelding
   //-- shortName is verplicht! (komt in de URL: kies logische afkorting)--------------
   shortName: "IMWA Basis",
   //-- publishDate is verplicht -------------------------------------------------------
