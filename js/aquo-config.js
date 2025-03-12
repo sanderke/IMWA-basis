@@ -109,5 +109,5 @@ var organisationConfig = {
             url: "https://creativecommons.org/licenses/by/4.0/legalcode",
             image: "https://tools.geostandaarden.nl/respec/style/logos/cc-by.svg",
         }
-      }
+      },
 }
