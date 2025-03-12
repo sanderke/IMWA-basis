@@ -19,12 +19,13 @@ let respecConfig = {
   //specType: "BD",                 // Beheer Documentatie
   //specType: "AL",                 // Algemeen document
   //specType: "BP",                 // Best Practice
+  labelColor: "#FF0000",
   //-- pubDomain is verplicht! (komt in de URL) -------------------------------------
   pubDomain: "IMWA Basis",
   //-- license: voor de geldende gebruiksvoorwaarden. Default is cc-by.
   //licence: "cc-by-nd",            // bronvermelding, geen afgeleide werken (default)
   //licence: "cc0",                 // Public Domain Dedication
-  licence: "cc-by",                 // Attribution, met bronvermelding
+  licences: ["cc-by"],                 // Attribution, met bronvermelding
   //-- shortName is verplicht! (komt in de URL: kies logische afkorting)--------------
   shortName: "IMWA Basis",
   //-- publishDate is verplicht -------------------------------------------------------
@@ -63,19 +64,9 @@ let respecConfig = {
   //editors:
   //[
   //  {
-  //    name:       "Paul Janssen",
-  //    company:    "Geonovum",
-  //    companyURL: "https://www.geonovum.nl"
-  //  },
-  //  {
-  //    name:       "Dick Krijtenburg",
-  //    company:    "Geonovum",
-  //    companyURL: "https://www.geonovum.nl"
-  //  },
-  //  {
-  //    name:       "Gerard Trouborst",
-  //    company:    "Geonovum",
-  //    companyURL: "https://www.geonovum.nl"
+  //    name:       "Wijnand van Riel",
+  //    company:    "IHW",
+  //    companyURL: "https://www.ihw.nl"
   //  },
   //],
   //-- de namen van de auteur(s) ------------------------------------------------------
