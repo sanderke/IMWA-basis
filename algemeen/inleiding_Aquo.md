@@ -1,4 +1,4 @@
-# Inleiding informatiemodel AQUO
+# Inleiding AQUO
 
 De Aquo-standaard (Aquo) is de Nederlandse standaard voor het uitwisselen van gegevens binnen de watersector.  
 Informatie is een belangrijke motor voor het functioneren van de watersector. Steeds meer en verschillende overheidslagen en instanties werken samen en wisselen informatie uit. Daarom is het belangrijk dat we allemaal dezelfde betekenis geven aan de gegevens en woorden die we gebruiken. En dat we gemeenschappelijke afspraken maken over hoe we gegevens beschrijven en de manier waarop we ze uitwisselen.
@@ -8,8 +8,6 @@ De Aquo-standaard draagt daarmee bij aan de kwaliteit van het waterbeheer. Het e
 
 Aquo is voor overheidsorganisaties een verplichte open standaard, die is ontwikkeld en wordt beheerd door het Informatiehuis Water. Het Informatiehuis Water is een samenwerkingsprogramma van Rijkswaterstaat, de waterschappen en de provincies.  
 Het Informatiehuis Water ontzorgt waterbeheerders en beleidsmakers bij het uitwisselen van waterinformatie.
-
----
 
 ## Informatiemodellen
 
@@ -27,13 +25,11 @@ Aquo-informatiemodellen worden ook gebruikt voor het ontwikkelen van import- en 
 
 ### Hoe werkt het?
 
-In de Aquo-standaard zijn informatiemodellen opgenomen voor verschillende soorten gegevensuitwisseling en die zijn per thema gerangschikt. Daarnaast is een gelaagdheid aangebracht:
+In de Aquo-standaard zijn informatiemodellen opgenomen voor verschillende soorten gegevensuitwisseling en die zijn per werkveld of domein gerangschikt. Daarnaast is een gelaagdheid aangebracht:
 
 - **Conceptueel model**: Hierin zijn alle toepassingen aangegeven waarvoor op dit moment Aquo-informatiemodellen beschikbaar zijn.
 - **Logisch model**: Dit is een selectie uit het semantische model, die specifiek is voor een bepaald werkveld of uitwisseldoel.
 - **Fysiek model**: Hiermee kunnen programmeurs aan de slag ten behoeve van een geautomatiseerde (computer naar computer) gegevensuitwisseling.
-
----
 
 ## MIM-conform
 
