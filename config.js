@@ -1,6 +1,6 @@
 var respecConfig = {
   title: "Informatiemodel Water (IMWA) Basis",
-specStatus: "CR",
+specStatus: "WD",
   specType: "standard",
   //subtitle: "IMWA Basis",
    //publishDate: "2023-04-26", 
