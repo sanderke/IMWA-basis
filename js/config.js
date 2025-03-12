@@ -20,13 +20,13 @@ let respecConfig = {
   //specType: "BD",                 // Beheer Documentatie
   //specType: "AL",                 // Algemeen document
   //specType: "BP",                 // Best Practice
-  
+
   //-- pubDomain is verplicht! (komt in de URL) -------------------------------------
   pubDomain: "IMWA Basis",
   //-- license: voor de geldende gebruiksvoorwaarden. Default is cc-by.
   //licence: "cc-by-nd",            // bronvermelding, geen afgeleide werken (default)
   //licence: "cc0",                 // Public Domain Dedication
-  licenses: "cc-by",                 // Attribution, met bronvermelding
+  licence: "cc-by",                 // Attribution, met bronvermelding
   //-- shortName is verplicht! (komt in de URL: kies logische afkorting)--------------
   shortName: "IMWA Basis",
   //-- publishDate is verplicht -------------------------------------------------------
