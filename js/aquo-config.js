@@ -95,12 +95,12 @@ var organisationConfig = {
         ld: "#80CC28"
     },
     
-    license: {
-        "cc-by": {
-            name: "Creative Commons Attribution 4.0 International Public License",
-            short: "CC-BY",
-            url: "https://creativecommons.org/licenses/by/4.0/legalcode",
-            image: "https://data.aquo.nl/informatiemodel/publicatie/cc-by.svg",
-        },
-    },
+    //licenses: {
+    //    "CC-BY": {
+    //        name: "Creative Commons Attribution 4.0 International Public License",
+    //        short: "CC-BY",
+    //        url: "https://creativecommons.org/licenses/by/4.0/legalcode",
+    //        image: "https://data.aquo.nl/informatiemodel/publicatie/cc-by.svg",
+    //    },
+    //},
 }
