@@ -95,12 +95,19 @@ var organisationConfig = {
         ld: "#80CC28"
     },
     
-    //licenses: {
-    //    "CC-BY": {
-    //        name: "Creative Commons Attribution 4.0 International Public License",
-    //        short: "CC-BY",
-    //        url: "https://creativecommons.org/licenses/by/4.0/legalcode",
-    //        image: "https://data.aquo.nl/informatiemodel/publicatie/cc-by.svg",
-    //    },
-    //},
+    licenses: {
+        cc0: {
+          name: "Creative Commons 0 Public Domain Dedication",
+            short: "CC0",
+            url: "https://creativecommons.org/publicdomain/zero/1.0/",
+            image:
+          "https://tools.geostandaarden.nl/respec/style/logos/CC-Licentie.svg",
+        },
+        "cc-by": {
+          name: "Creative Commons Attribution 4.0 International Public License",
+            short: "CC-BY",
+            url: "https://creativecommons.org/licenses/by/4.0/legalcode",
+            image: "https://tools.geostandaarden.nl/respec/style/logos/cc-by.svg",
+        }
+      }
 }
