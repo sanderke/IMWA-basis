@@ -14,8 +14,6 @@ var organisationConfig = {
         width: 132,
         url: "https://www.aquo.nl",
       }],
-	
-	postProcess: [window.respecMermaid.createFigures],
 
 	latestVersion: ["nl_organisationPublishURL", "pubDomain", "/", "shortName", "/"],
     thisVersion: ["nl_organisationPublishURL", "pubDomain", "/", "specStatus", "-", "specType", "-", "shortName", "-", "publishDate"],
