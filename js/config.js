@@ -1,11 +1,8 @@
 let respecConfig = {
-  useLogo: true,
-  useLabel: true,
   // title is verplicht! Neem hier de titel van het document op ----------------------
   title: "Informatiemodel Water (IMWA) Basis",
   //-- specStatus is verplicht! (activeer 1 van de volgende) --------------------------
-  specStatus:   "WV",               // Werkversie
-  labelColor: "#ffcc00",
+  specStatus: "WV",               // Werkversie
   // specStatus: "cv",               // Consultatieversie
   //specStatus: "vv",               // Versie ter vaststelling
   //specStatus: "def",              // Vastgestelde versie
@@ -22,13 +19,13 @@ let respecConfig = {
   //specType: "BP",                 // Best Practice
 
   //-- pubDomain is verplicht! (komt in de URL) -------------------------------------
-  pubDomain: "IMWA Basis",
+  pubDomain: "IMWA-Basis",
   //-- license: voor de geldende gebruiksvoorwaarden. Default is cc-by.
   //licence: "cc-by-nd",            // bronvermelding, geen afgeleide werken (default)
   //licence: "cc0",                 // Public Domain Dedication
   license: "cc-by",                 // Attribution, met bronvermelding
   //-- shortName is verplicht! (komt in de URL: kies logische afkorting)--------------
-  shortName: "IMWA Basis",
+  shortName: "IMWA-Basis",
   //-- publishDate is verplicht -------------------------------------------------------
   //-- NB: in de werkversie uitzetten, want dan pakt Respec de pushdate ---------------
   publishDate: "2024-06-13",
@@ -51,8 +48,6 @@ let respecConfig = {
   emailComments: "servicedesk@ihw.nl",         // reactie mailadres, alleen bij CV!
   subtitle: "Versie 0.8",                         // Subtitel van het document
   //maxTocLevel: 4,                           // Aantal niveau's ToC, default is 0
-  nl_organisationName: "IHW",
-  sotdText: "Dit is een werkversie die op elk moment kan worden gewijzigd, verwijderd of vervangen door andere documenten. Het is geen stabiel document.",
 
   // Create PDF and link to file in header (optional):
   // alternateFormats: [
